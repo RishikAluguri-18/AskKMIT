@@ -1,5 +1,7 @@
 # AskKMIT: Smart RAG Document Assistant 📄🧠
 
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://askkmit.streamlit.app/)
+
 A powerful, rate-limit-safe intelligent document chatbot built with **Streamlit**, **LangChain**, and **Google Gemini 2.5**. This application enables you to upload documents (PDF, TXT, DOCX) and ask questions through an intuitive chat interface.
 
 Unlike standard RAG, AskKMIT features advanced query routing allowing you to query semantic context, specific **page ranges**, and even specific **chapters**.
@@ -33,7 +35,7 @@ You need Python 3.8+ installed on your system, along with a Google Gemini API Ke
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/Priyanshu-Yadav19/DocuMind-AI-Smart-RAG-Document-Assistant.git AskKMIT
+   git clone https://github.com/RishikAluguri-18/AskKMIT.git
    cd AskKMIT
    ```
 
