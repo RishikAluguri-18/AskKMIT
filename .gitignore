@@ -1,0 +1,23 @@
+# Environment variables (DO NOT COMMIT)
+.env
+
+# Virtual environment
+venv/
+.venv/
+model/
+
+# Application Caches
+.cache/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Streamlit config / cache
+.streamlit/
+
+# OS / editor junk
+.DS_Store
+.vscode/
