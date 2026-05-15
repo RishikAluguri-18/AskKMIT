@@ -112,7 +112,7 @@ if ask and question:
         if not docs:
             st.warning("Couldn't select pages/sections (PDF might be scanned).")
     else:
-        docs = retriever.get_relevant_documents(question)
+        docs = retriever.invoke(question)
 
     context = format_context(docs)
     messages = prompt.format_messages(context=context, input=question)
